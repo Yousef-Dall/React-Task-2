@@ -109,6 +109,8 @@ h1{
     align-items: center;
     justify-content: center;
     border-radius: 10px;
+    text-align: center;
+
 }
 .app:hover{
     box-shadow: 1px 1px 15px 0px #171717;
@@ -229,17 +231,19 @@ button{
 
 #mor{
     margin: auto;
-    height: 7vh;
+    height: 5vh;
     display: flex;
     align-items: center;
     justify-content: center;
-    padding-bottom: 7px;
+    /* padding-bottom: 7px; */
     border-style:solid;
     border-width: thin;
-    text-decoration:underline;
-    color: blue;
+    /* text-decoration:underline; */
+    color: #6d9cec    ;
     border-color: white;
-    padding: 3px;
+    padding: 1px 30px 1px 30px;
+    margin-bottom: 10px;
+    border-radius: 5px;
 }
 
 #mor:hover{
@@ -254,32 +258,24 @@ button{
 }
 
 .menu-butt{
-font: 13px/27px Roboto,Arial,sans-serif;
-white-space: nowrap;
-line-height: normal;
+/* font: 13px/27px Roboto,Arial,sans-serif; */
+/* white-space: nowrap; */
+/* line-height: normal; */
 display: inline-block;
-outline: none;
-vertical-align: middle;
 box-sizing: border-box;
 height: 40px;
 width: 40px;
 padding: 8px;
-border-radius: 50%;
-background-position: -64px -29px;
-opacity: 1;
 color: white;
-cursor: pointer;
-text-decoration: none;
 }
 
 .menu-img{
-font: 13px/27px Roboto,Arial,sans-serif;
-white-space: nowrap;
-line-height: normal;
-cursor: pointer;
+
+
+
 fill: currentColor;
-opacity: 1;
-color: rgba(255,255,255,0.87);
+
+
 }
 
 #pal{
